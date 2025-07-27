@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///D:/Software/NextJS/blog-app/frontend/src/app/posts/%5Bid%5D/page.js"],"sourcesContent":["export default async function PostDetail({ params }) {\r\n  const { id } = params;\r\n\r\n  const res = await fetch(`http://localhost:8000/api/blogs/${id}`);\r\n\r\n  if (!res.ok) {\r\n    return <div className=\"container py-5 text-center\">Post not found.</div>;\r\n  }\r\n\r\n  const post = await res.json();\r\n\r\n  return (\r\n    <main className=\"container py-5\">\r\n      <h1 className=\"mb-4\">{post.title}</h1>\r\n      <p>{post.content}</p>\r\n      <a href=\"/posts\" className=\"btn btn-outline-primary mt-4\">← Back to Posts</a>\r\n    </main>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAAe,eAAe,WAAW,EAAE,MAAM,EAAE;IACjD,MAAM,EAAE,EAAE,EAAE,GAAG;IAEf,MAAM,MAAM,MAAM,MAAM,CAAC,gCAAgC,EAAE,IAAI;IAE/D,IAAI,CAAC,IAAI,EAAE,EAAE;QACX,qBAAO,8OAAC;YAAI,WAAU;sBAA6B;;;;;;IACrD;IAEA,MAAM,OAAO,MAAM,IAAI,IAAI;IAE3B,qBACE,8OAAC;QAAK,WAAU;;0BACd,8OAAC;gBAAG,WAAU;0BAAQ,KAAK,KAAK;;;;;;0BAChC,8OAAC;0BAAG,KAAK,OAAO;;;;;;0BAChB,8OAAC;gBAAE,MAAK;gBAAS,WAAU;0BAA+B;;;;;;;;;;;;AAGhE","debugId":null}}]
+}

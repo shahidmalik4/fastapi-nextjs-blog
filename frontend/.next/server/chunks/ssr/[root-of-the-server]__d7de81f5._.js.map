@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///D:/Software/NextJS/blog-app/frontend/src/app/page.js"],"sourcesContent":["export default function Home() {\n  return (\n    <div className=\"d-flex flex-column justify-content-center align-items-center vh-100 bg-dark text-white\">\n      <h1 className=\"display-1 mb-3\">Hello, Next.js!</h1>\n      <p className=\"lead mb-4 text-center\" style={{ maxWidth: 600 }}>\n        Welcome to your awesome Next.js app. Get ready to build something amazing with Bootstrap and Next.js!\n      </p>\n      <a\n        href=\"https://nextjs.org/docs\"\n        target=\"_blank\"\n        rel=\"noopener noreferrer\"\n        className=\"btn btn-primary btn-lg\"\n      >\n        Explore Docs\n      </a>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;gBAAG,WAAU;0BAAiB;;;;;;0BAC/B,8OAAC;gBAAE,WAAU;gBAAwB,OAAO;oBAAE,UAAU;gBAAI;0BAAG;;;;;;0BAG/D,8OAAC;gBACC,MAAK;gBACL,QAAO;gBACP,KAAI;gBACJ,WAAU;0BACX;;;;;;;;;;;;AAKP","debugId":null}}]
+}
