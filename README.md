@@ -1,4 +1,3 @@
-```markdown
 # 📝 Fullstack Blog App
 
 A minimal fullstack blog application built with **FastAPI** (backend), **Next.js** (frontend), and **SQLite** as the database. It supports basic blog post CRUD operations, dynamic routing, and a clean API-first architecture.
@@ -15,7 +14,7 @@ A minimal fullstack blog application built with **FastAPI** (backend), **Next.js
 ---
 
 ## 📁 Project Structure
-
+```
 blogstack/
 ├── backend/              # FastAPI backend
 │   ├── main.py
@@ -29,7 +28,7 @@ blogstack/
 │   └── ...
 ├── .gitignore
 └── README.md
-
+```
 ---
 
 ## ⚙️ Setup Instructions
