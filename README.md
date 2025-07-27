@@ -86,8 +86,3 @@ npm run dev
 - SQLite (default, no setup needed)
 
 ---
-
-## 📄 License
-
-This project is licensed under the MIT License.
-```
