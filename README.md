@@ -16,7 +16,6 @@ A minimal fullstack blog application built with **FastAPI** (backend), **Next.js
 
 ## 📁 Project Structure
 
-```
 blogstack/
 ├── backend/              # FastAPI backend
 │   ├── main.py
@@ -30,7 +29,6 @@ blogstack/
 │   └── ...
 ├── .gitignore
 └── README.md
-```
 
 ---
 
